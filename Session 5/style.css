@@ -1,0 +1,67 @@
+/*div{
+    color:red;
+}
+div{
+    color:brown;
+}
+
+div{
+    color:blue;
+    background-color:green;
+}*/
+
+/* .ExampleClass -- same thing or equivalent. */
+/*
+.green{
+    color:green;
+}
+.red{
+    color:red;
+}
+.underline{
+    text-decoration: underline;
+}
+
+.italic{
+    font-style:italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+[CLASS]{
+    color: red;
+}
+*/
+
+.bold{
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+}
+.italic{
+    font-style: italic;
+}
+.red{
+    color:red;
+}
+.b-red{
+    background-color: red;
+}
+.b-yellow{
+    background-color: yellow;
+}
+.brown{
+    color:brown;
+}
+
+.normal{
+    font-weight: normal;
+}
+
+[DATA-rel=""]{
+    background-color:yellow;
+}

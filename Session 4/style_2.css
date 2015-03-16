@@ -1,0 +1,13 @@
+
+.color-change { /*no dot means tag */
+    /*color:red;*/
+}
+
+[class='color-change']{ /* class select by attribute selector */
+    /*color:red; */
+}
+
+/* [attribute="value"]
+   [attribute=value]
+   [attribute]
+*/

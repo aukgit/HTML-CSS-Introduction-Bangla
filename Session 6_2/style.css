@@ -1,0 +1,61 @@
+/* :sudo-class  
+    Hover
+    Active
+    link
+    visited
+    first-child
+    nth-child(N)
+    body>div>div:first-child{
+        background-color: yellow;
+    }
+    div div{
+        background-color: yellow;
+    }
+    div > div{
+        background-color: transparent;
+    }
+
+*/
+/* space : select all UL inside body body>div>UL
+    > :  ul body> UL
+    */
+
+
+body>ul{
+    background-color: yellow;
+}
+ul li #item-id-example.item-example [data-rel="hello"] { /*more more more specific*/
+    background-color: aqua;
+    color:white;
+    font-size:15px;
+}
+ul li#item-id-example.item-example { /* more more specific*/
+    background-color: brown;
+    color:white;
+    font-size:15px;
+}
+ul li#item-id-example { /* more more specific*/
+    background-color: green;
+}
+ul li.item-example { /* more specific*/
+    background-color: blue;
+}
+.item-example{ /* less specific*/
+    background-color: red;
+}
+
+/*
+body div div{
+    background-color: yellow;
+}
+
+body div>div{
+    background-color: transparent;
+}
+*/
+
+/*
+body>ul>li{
+    background-color: green;
+}
+*/

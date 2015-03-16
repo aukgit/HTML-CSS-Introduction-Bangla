@@ -1,0 +1,95 @@
+/* :sudo-class  
+    Hover
+    Active
+    link
+    visited
+    first-child
+    nth-child(N)
+*/
+/* space : select all UL inside body body>div>UL
+    > :  ul body> UL
+    */
+
+/*
+a:link{
+    color: brown;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    background-color: orange;
+}*/
+
+/* doesn't support in all internet explorer */
+/*
+ul {
+    background-color: blue;
+}
+ul li:nth-child(2n){
+    background-color: yellow;
+}
+ul li:nth-child(2n):hover{
+    background-color: red;
+}
+
+ul li:nth-child(2n+1):hover{
+    background-color: brown;
+    color:white;
+}
+div {
+    background-color: yellow; 
+}
+
+p.underline.italic {
+    background-color: yellow;
+}
+
+
+*/
+
+/* inline > more specific > #ID > .class/attr >  for tags or inherited use top to bottom */
+
+body ul.ul-1 li.item-class#li-id[data-rel="li-attr"] {
+    background-color: red; /* More More Specific */
+    color:white;
+}
+body ul.ul-1 li.item-class#li-id[data-rel="li-attr"] {
+    background-color: royalblue; /* More More Specific , top to bottom this one will win*/
+    color:white;
+}
+
+ul.ul-1 li.item-class#li-id[data-rel="li-attr"] {
+    background-color: black; /* More Specific */
+    color:white;
+}
+ul.ul-1 li.item-class#li-id {
+    background-color: goldenrod; /* More Specific */
+}
+
+ul.ul-1 li.item-class {
+    background-color: gold; /* More Specific */
+}
+li.item-class {
+    background-color:  aliceblue !important;  /* Less Less Specific */
+    color: black !important;
+}
+li.item-class {
+    background-color:  red !important;  /* Less Less Specific */
+    color: white !important;
+}
+ul.ul-1 li {
+    background-color: green; /* Specific */
+}
+ul li {
+    background-color: brown; /* less Specific */
+}
+
+
+li {
+    background-color: yellow;
+}
+
+li { /* Top to bottom */
+    background-color: aqua;
+}

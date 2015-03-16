@@ -1,0 +1,29 @@
+[class|="container"]{
+   width:450px;
+   margin:0 auto;
+   background-color: aliceblue;
+    overflow: hidden;
+
+}
+[class|="box"]{
+    height: 50px;
+    Width:200px;
+    background-color: yellow;
+    border: 1px dotted;    
+    
+}
+
+.container-1 [class|="box"]{
+    float: right;
+}
+
+.container-2 [class|="box"]:nth-child(2){
+    background-color: red;
+    clear:left;
+}
+
+
+
+.container-2 [class|="box"]{
+    float: left;
+}

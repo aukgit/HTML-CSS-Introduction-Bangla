@@ -1,0 +1,52 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+.box-wrapper{
+    height: auto;
+    width: 450px;
+    margin: 5px;
+    background-color: aqua;
+}
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    
+}
+
+.btn{
+    height: 13px;
+    width: 13px;
+    background-color: red;    
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+.box:nth-child(1){
+    position: relative;
+    
+}
+
+.image-example .btn-group{
+    position: relative;
+    top: -187px;
+    right: -126px;    
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+.bg-green{
+    background-color: green;
+}

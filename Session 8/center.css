@@ -1,0 +1,16 @@
+
+
+
+.box {
+    height: 250px;
+    Width:250px; /* must give a specific width */
+   margin: 0 auto;
+    background-color: yellow;
+    
+}
+
+.container {
+  background-color:aqua;
+  width:960px;
+   margin: 0 auto;
+}

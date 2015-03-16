@@ -1,0 +1,27 @@
+/*div{
+    color:red;
+}
+div{
+    color:brown;
+}
+
+div{
+    color:blue;
+    background-color:green;
+}*/
+p{
+    color: blue;
+}
+
+div{
+    color: brown;
+    
+}
+
+a,p,span {
+    color: red;
+}
+/* .ExampleClass -- same thing or equivalent. */
+[class="ExampleClass"]{
+    color: black;
+}

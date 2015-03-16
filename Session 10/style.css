@@ -1,0 +1,33 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+div{
+    background-color: yellow;
+}
+
+h1{
+    background-color: red;
+    color:white;
+}
+h2{
+    background-color: blue;
+}
+
+h3{
+    background-color: green;
+}
+
+h4{
+    background-color: aqua;
+}
+
+ul {
+    background-color: gold;
+}
+
+ul li{
+    background-color: brown;
+}

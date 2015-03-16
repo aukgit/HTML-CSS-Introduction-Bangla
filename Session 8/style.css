@@ -1,0 +1,41 @@
+[class|="container"]{
+   width:950px;
+   margin:0 auto;
+   background-color: aliceblue;
+   overflow: auto;
+}
+
+[class*="container"] .row [class*="box"]{
+    height: 50px;
+    Width:200px;
+    background-color: yellow;
+    border: 1px dotted;   
+    float: right;
+    
+}
+
+
+
+[class*="container"] .row [class*="box"]:nth-child(2n+1){
+    background-color: aqua;
+}
+
+
+[class*="container"] .row [class*="box"]:nth-child(2){
+    clear: both;
+    background-color: red;   
+}
+
+
+
+[class*="container"] .row.bottom [class*="box"]{
+    clear: none;
+}
+
+
+
+
+
+.footer {
+    clear: both;
+}

@@ -1,0 +1,42 @@
+/* :sudo-class  
+    Hover
+    Active
+    link
+    visited
+    first-child
+    nth-child(N)
+*/
+/* space : select all UL inside body body>div>UL
+    > :  ul body> UL
+    */
+
+/*
+a:link{
+    color: brown;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    background-color: orange;
+}*/
+
+/* doesn't support in all internet explorer */
+
+/*
+ul {
+    background-color: blue;
+}
+ul li:nth-child(2n){
+    background-color: yellow;
+}
+ul li:nth-child(2n):hover{
+    background-color: red;
+}
+
+ul li:nth-child(2n+1):hover{
+    background-color: brown;
+    color:white;
+}
+
+*/

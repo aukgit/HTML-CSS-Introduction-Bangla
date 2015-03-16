@@ -1,0 +1,52 @@
+[class|="box"]
+{
+   height:100px;
+   width: 100px;
+   
+
+}
+
+
+
+
+.box-1,.box[data-type="1"]{    
+    background-color: red;   
+}
+[class|="box"]:nth-child(2){  
+    background-color: green; 
+}
+
+[class|="box"]:nth-child(3){
+    background-color: orange;
+
+}
+
+[class|="box"]:nth-child(4){
+    background-color: orangered;
+  
+}
+
+[class|="box"]:nth-child(5){
+    height:100px;
+    width: 100px;
+    background-color: orchid;
+
+}
+
+[class|="box"]:nth-child(6){
+    height:100px;
+    width: 100px;
+    background-color: greenyellow;
+
+}
+
+[class|="box"]:nth-child(7){
+    height:100px;
+    width: 100px;
+    background-color: red;
+   
+}
+
+
+
+

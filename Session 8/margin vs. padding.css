@@ -1,0 +1,19 @@
+body{
+	background-color:aqua;
+}
+.box {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+    display: inline-block;
+}
+
+.box {
+    border: 10px solid black;
+    padding: 50px;
+    
+    padding-left:-50px;
+    /*margin:50px 2px;
+    
+    top right bottom left */
+}
